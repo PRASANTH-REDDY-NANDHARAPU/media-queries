@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Berkshire+Swash&family=Chewy&family=Julius+Sans+One&family=Kaushan+Script&family=Marcellus+SC&family=Mr+Dafoe&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,600;1,700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 800px;
+    margin: 10px auto;
+}
+.card-img{
+    width: 100%;
+}
+.name{
+    font-size: 35px;
+}
+
+/* -----------------css for food cards in laptop-------------- */
+
+.food-card{
+      width: 700px;
+      border: 2px solid grey;
+      border-radius: 20px;
+      margin: 10px auto;
+      padding: 15px;
+}
+.food-img{
+    width: 100%;
+    border-radius: 20px;
+
+}
+.btn{
+    border: none;
+    background-color: tomato;
+    color: white;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+
+/* --------media queries----------
+break points
+
+sm-->small(576px),mobile
+lg-->large(992px),laptop
+xl-->extra(1200px),desktops monitors,tv
+md-->medium(767px),tab
+*/
+@media screen and (max-width:576px){
+    .container{
+        width: 400px;
+        margin: 10px;
+    }
+    .name{
+        font-size: 15px;
+    }
+    .food-card{
+        width: 500px;
+        margin: 10px;
+        border: none;
+  }
+  .btn{
+    background-color: black;
+}
+
+
+
+
+
+}
+@media screen and (max-width:767px){
+    .container{
+        width: 600px;
+        margin: 10px auto;
+    }
+    .name{
+        font-size: 25px;
+    }
+
+
+
+
+}
